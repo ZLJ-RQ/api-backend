@@ -1,7 +1,8 @@
 package com.yupi.project.mapper;
 
+
+import com.api.common.model.entity.Post;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.yupi.project.model.entity.Post;
 
 /**
 * @author yupili

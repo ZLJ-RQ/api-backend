@@ -1,5 +1,7 @@
 package com.yupi.project.controller;
 
+import com.api.common.model.entity.Post;
+import com.api.common.model.entity.User;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.yupi.project.annotation.AuthCheck;
@@ -10,12 +12,8 @@ import com.yupi.project.common.ResultUtils;
 import com.yupi.project.constant.CommonConstant;
 import com.yupi.project.exception.BusinessException;
 import com.yupi.project.model.dto.post.PostAddRequest;
-import com.yupi.project.model.dto.post.PostDoThumbRequest;
 import com.yupi.project.model.dto.post.PostQueryRequest;
 import com.yupi.project.model.dto.post.PostUpdateRequest;
-import com.yupi.project.model.entity.Post;
-import com.yupi.project.model.entity.User;
-import com.yupi.project.model.vo.PostVO;
 import com.yupi.project.service.PostService;
 import com.yupi.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
